@@ -1,2 +1,5 @@
 processed_dataset_with_graphs.pkl
 best_model.pth
+__pycache__/
+.DS_Store
+data/final_augmented_dataset.pkl
