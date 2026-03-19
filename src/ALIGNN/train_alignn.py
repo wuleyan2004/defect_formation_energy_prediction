@@ -2,8 +2,6 @@
 import os
 import sys
 import pickle
-import argparse
-from pathlib import Path
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -167,64 +165,16 @@ def split_dataset(dataset, train_ratio=0.8, val_ratio=0.1, seed=42):
     
     return Subset(dataset, train_indices), Subset(dataset, val_indices), Subset(dataset, test_indices)
 
-def _default_project_root() -> Path:
-    return Path(__file__).resolve().parents[2]
-
-def _resolve_path(project_root: Path, p: str) -> str:
-    path = Path(p).expanduser()
-    if not path.is_absolute():
-        path = (project_root / path).resolve()
-    return str(path)
-
-def parse_args():
-    project_root = _default_project_root()
-    parser = argparse.ArgumentParser(description="Train ALIGNN on defect formation energy dataset.")
-    parser.add_argument("--data-path", default="data/final_dataset.pkl")
-    parser.add_argument("--output-dir", default="checkpoints/ALIGNN")
-    parser.add_argument("--resume-path", default="")
-    parser.add_argument("--batch-size", type=int, default=32)
-    parser.add_argument("--epochs", type=int, default=50)
-    parser.add_argument("--epochs-per-run", type=int, default=1)
-    parser.add_argument("--lr", type=float, default=1e-3)
-    parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--train-ratio", type=float, default=0.8)
-    parser.add_argument("--val-ratio", type=float, default=0.1)
-    parser.add_argument("--num-workers", type=int, default=0)
-    args = parser.parse_args()
-
-    args.data_path = _resolve_path(project_root, args.data_path)
-    args.output_dir = _resolve_path(project_root, args.output_dir)
-    if args.resume_path:
-        args.resume_path = _resolve_path(project_root, args.resume_path)
-    else:
-        args.resume_path = os.path.join(args.output_dir, "latest_model.pth")
-
-    if args.epochs_per_run < 1:
-        raise SystemExit("--epochs-per-run must be >= 1")
-    if not (0.0 < args.train_ratio < 1.0):
-        raise SystemExit("--train-ratio must be in (0, 1)")
-    if not (0.0 <= args.val_ratio < 1.0):
-        raise SystemExit("--val-ratio must be in [0, 1)")
-    if args.train_ratio + args.val_ratio >= 1.0:
-        raise SystemExit("train_ratio + val_ratio must be < 1")
-
-    return args
-
 # --- Main ---
 def main():
-    args = parse_args()
     CONFIG = {
-        'data_path': args.data_path,
-        'output_dir': args.output_dir,
-        'batch_size': args.batch_size,
-        'epochs': args.epochs,
-        'epochs_per_run': args.epochs_per_run,
-        'lr': args.lr,
-        'seed': args.seed,
-        'resume_path': args.resume_path,
-        'train_ratio': args.train_ratio,
-        'val_ratio': args.val_ratio,
-        'num_workers': args.num_workers,
+        'data_path': '/Users/wuleyan/Desktop/大创_我自己的代码保留一份/Defect_Formation_Energy_Prediction/data/final_dataset.pkl',
+        'output_dir': '/Users/wuleyan/Desktop/大创_我自己的代码保留一份/Defect_Formation_Energy_Prediction/checkpoints/ALIGNN',
+        'batch_size': 32,
+        'epochs': 50,
+        'lr': 1e-3,            # ALIGNN typically uses higher LR or schedule
+        'seed': 42,
+        'resume_path': '/Users/wuleyan/Desktop/大创_我自己的代码保留一份/Defect_Formation_Energy_Prediction/checkpoints/ALIGNN/latest_model.pth',
     }
     
     if not os.path.exists(CONFIG['output_dir']):
@@ -235,12 +185,7 @@ def main():
     logger.info(f"Python version: {sys.version}")
     logger.info(f"Training started. Config: {CONFIG}")
     
-    if torch.cuda.is_available():
-        device = torch.device('cuda')
-    elif hasattr(torch.backends, "mps") and torch.backends.mps.is_available():
-        device = torch.device('mps')
-    else:
-        device = torch.device('cpu')
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     logger.info(f"Using device: {device}")
     
     torch.manual_seed(CONFIG['seed'])
@@ -261,27 +206,10 @@ def main():
     logger.info(f"Target Norm Stats: Mean={normalizer.mean:.4f}, Std={normalizer.std:.4f}")
     
     # Split
-    train_set, val_set, test_set = split_dataset(
-        full_dataset,
-        train_ratio=CONFIG['train_ratio'],
-        val_ratio=CONFIG['val_ratio'],
-        seed=CONFIG['seed'],
-    )
+    train_set, val_set, test_set = split_dataset(full_dataset, train_ratio=0.8, val_ratio=0.1, seed=CONFIG['seed'])
     
-    train_loader = DataLoader(
-        train_set,
-        batch_size=CONFIG['batch_size'],
-        shuffle=True,
-        collate_fn=collate_alignn,
-        num_workers=CONFIG['num_workers'],
-    )
-    val_loader = DataLoader(
-        val_set,
-        batch_size=CONFIG['batch_size'],
-        shuffle=False,
-        collate_fn=collate_alignn,
-        num_workers=CONFIG['num_workers'],
-    )
+    train_loader = DataLoader(train_set, batch_size=CONFIG['batch_size'], shuffle=True, collate_fn=collate_alignn, num_workers=0)
+    val_loader = DataLoader(val_set, batch_size=CONFIG['batch_size'], shuffle=False, collate_fn=collate_alignn, num_workers=0)
     
     # --- Model ---
     # ALIGNN Config
@@ -325,12 +253,7 @@ def main():
     # --- Training Loop ---
     logger.info("Start Training...")
     
-    end_epoch = min(CONFIG['epochs'], start_epoch + CONFIG['epochs_per_run'])
-    if start_epoch >= CONFIG['epochs']:
-        logger.info("Already finished all epochs. Exiting.")
-        return
-
-    for epoch in range(start_epoch, end_epoch):
+    for epoch in range(start_epoch, CONFIG['epochs']):
         start_time = time.time()
         
         # Train
@@ -435,12 +358,9 @@ def main():
               f"Val Loss: {avg_val_loss:.4f} MAE: {avg_val_mae:.4f} | "
               f"Time: {epoch_time:.1f}s {saved_msg}")
 
-    if end_epoch < CONFIG['epochs']:
-        logger.info(
-            "Completed %d epoch(s) this run (epochs_per_run=%d). Exiting for an external restart.",
-            end_epoch - start_epoch,
-            CONFIG['epochs_per_run'],
-        )
+        # Restart logic
+        print("🚩 这一轮跑完啦，我要自杀重启来清理内存了...")
+        break
 
     logger.info("Training Complete.")
 

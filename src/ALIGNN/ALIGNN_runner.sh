@@ -4,14 +4,6 @@
 # ALIGNN Runner Script
 # Runs train_alignn.py in a loop to handle memory leaks (especially on MPS)
 
-set -euo pipefail
-
-PYTHON_BIN="${PYTHON_BIN:-python3}"
-TRAIN_SCRIPT="${TRAIN_SCRIPT:-train_alignn.py}"
-
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-cd "${SCRIPT_DIR}"
-
 MAX_RETRIES=100
 COUNT=0
 
@@ -21,7 +13,7 @@ while [ $COUNT -lt $MAX_RETRIES ]; do
     echo "----------------------------------------"
     
     # Run the training script
-    "${PYTHON_BIN}" "${TRAIN_SCRIPT}"
+    /usr/bin/python3 train_alignn.py
     
     # Capture exit code
     EXIT_CODE=$?

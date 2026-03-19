@@ -1,6 +1,47 @@
-processed_dataset_with_graphs.pkl
-best_model.pth
-__pycache__/
+# MacOS
 .DS_Store
-data/final_augmented_dataset.pkl
-data/final_augmented_dataset.pkl
+.AppleDouble
+.LSOverride
+
+# Node.js
+node_modules/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Build & Dist
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Python / Machine Learning
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.venv/
+env/
+.env/
+
+# Data, Models, and Outputs
+checkpoints/
+result/
+*.pth
+*.pt
+*.pkl
+*.h5
+*.hdf5
+*.ckpt
+
+# Test outputs and extra logs
+*training_log.txt
+*.png
+*.jpg
