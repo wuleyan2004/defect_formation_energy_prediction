@@ -15,6 +15,38 @@
   - **坐标微扰 (Perturbation)**：添加高斯噪声模拟热振动及测量误差。
 - **自动训练恢复机制**：提供了强大的 Shell 运行脚本（如 `ALIGNN_runner.sh`），可自动处理训练过程中的显存泄漏 (Memory Leak) 或意外中断问题，实现自动重启。
 
+---
+
+## 🌐 部署与推理 (API 后端)
+
+本项目包含了一个基于 **FastAPI** 的后端服务，可以用于模型推理和预测。
+
+### 文件结构
+
+- `main.py`: FastAPI server for exposing the prediction model as an API.
+- `predictor.py`: The wrapper class `FormationEnergyPredictor` for loading the model and making predictions.
+- `models/`: Contains the model architecture (`arch.py`) and pre-trained weights (`formation_energy_model.pth`).
+- `utils/`: Contains utility scripts, such as data preprocessing (`preprocess.py`).
+- `test*.cif`: Sample CIF files for testing.
+- `atom_features.pth`: Pre-computed atom features used by the model.
+
+### 快速启动
+
+1. **安装依赖**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **启动 API 服务**
+   ```bash
+   uvicorn main:app --reload
+   ```
+
+3. **测试服务**
+   服务启动后将在 `http://localhost:8000` 运行。您可以通过上传 CIF 文件测试预测接口，或访问 `http://localhost:8000/docs` 查看 Swagger UI 文档。
+
+---
+
 ## 🛠️ 技术栈
 
 - **编程语言**: Python 3.x
@@ -44,7 +76,7 @@
    # 若需要 DGL 等库，请按需安装
    ```
 
-## 🚀 使用方法
+## 🚀 使用方法 (训练)
 
 ### 数据准备与增强
 您可以利用项目提供的数据增强脚本对原始数据进行扩充：
