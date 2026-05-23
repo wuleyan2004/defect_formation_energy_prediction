@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="9GCo0REFA1CyG-HgACHI">
+    <mxGraphModel dx="898" dy="1308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-32" edge="1" parent="1" source="8SGOV-Sra9DikcJcoI4s-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8SGOV-Sra9DikcJcoI4s-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="开始" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-33" edge="1" parent="1" source="8SGOV-Sra9DikcJcoI4s-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8SGOV-Sra9DikcJcoI4s-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="原始结构输入与解析" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-34" edge="1" parent="1" source="8SGOV-Sra9DikcJcoI4s-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8SGOV-Sra9DikcJcoI4s-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="与理想二维材料经阁进行对比" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-18" edge="1" parent="1" source="8SGOV-Sra9DikcJcoI4s-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8SGOV-Sra9DikcJcoI4s-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-19" edge="1" parent="1" source="8SGOV-Sra9DikcJcoI4s-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8SGOV-Sra9DikcJcoI4s-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-21" edge="1" parent="1" source="8SGOV-Sra9DikcJcoI4s-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8SGOV-Sra9DikcJcoI4s-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="判断缺陷位点类别" vertex="1">
+          <mxGeometry height="80" width="170" x="300" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-13" edge="1" parent="1" source="8SGOV-Sra9DikcJcoI4s-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8SGOV-Sra9DikcJcoI4s-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="替位/掺杂缺陷" vertex="1">
+          <mxGeometry height="60" width="120" x="135" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-14" edge="1" parent="1" source="8SGOV-Sra9DikcJcoI4s-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8SGOV-Sra9DikcJcoI4s-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="间隙缺陷" vertex="1">
+          <mxGeometry height="60" width="120" x="325" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-15" edge="1" parent="1" source="8SGOV-Sra9DikcJcoI4s-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8SGOV-Sra9DikcJcoI4s-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="空位缺陷" vertex="1">
+          <mxGeometry height="60" width="120" x="515" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-22" edge="1" parent="1" source="8SGOV-Sra9DikcJcoI4s-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="8SGOV-Sra9DikcJcoI4s-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="记录实际元素类型及坐标" vertex="1">
+          <mxGeometry height="60" width="120" x="135" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-23" edge="1" parent="1" source="8SGOV-Sra9DikcJcoI4s-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="8SGOV-Sra9DikcJcoI4s-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="记录元素类型及坐标" vertex="1">
+          <mxGeometry height="60" width="120" x="325" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-24" edge="1" parent="1" source="8SGOV-Sra9DikcJcoI4s-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8SGOV-Sra9DikcJcoI4s-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="提取绝对三维坐标" vertex="1">
+          <mxGeometry height="60" width="120" x="515" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-27" edge="1" parent="1" source="8SGOV-Sra9DikcJcoI4s-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8SGOV-Sra9DikcJcoI4s-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="将对应的实体原子实例标记为“实体缺陷锚点”" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="在定位出的空位坐标处强制生成并注入一个“虚拟节点”，作为“虚拟缺陷锚点”" vertex="1">
+          <mxGeometry height="60" width="120" x="515" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="根据原子的物理化学属性构建高维特征向量" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="赋予特定的可学习物理嵌入向量" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="8SGOV-Sra9DikcJcoI4s-31" edge="1" parent="1" source="8SGOV-Sra9DikcJcoI4s-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.547;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="574.6800000000001" y="647.22" as="sourcePoint" />
+            <mxPoint x="575.32" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
