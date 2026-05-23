@@ -79,8 +79,14 @@
         <mxCell id="8SGOV-Sra9DikcJcoI4s-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="在定位出的空位坐标处强制生成并注入一个“虚拟节点”，作为“虚拟缺陷锚点”" vertex="1">
           <mxGeometry height="60" width="120" x="515" y="585" as="geometry" />
         </mxCell>
+        <mxCell id="Ax_tBpf1RR-c3rcVU_9K-4" edge="1" parent="1" source="8SGOV-Sra9DikcJcoI4s-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="Ax_tBpf1RR-c3rcVU_9K-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8SGOV-Sra9DikcJcoI4s-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="根据原子的物理化学属性构建高维特征向量" vertex="1">
           <mxGeometry height="60" width="120" x="220" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax_tBpf1RR-c3rcVU_9K-3" edge="1" parent="1" source="8SGOV-Sra9DikcJcoI4s-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="Ax_tBpf1RR-c3rcVU_9K-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8SGOV-Sra9DikcJcoI4s-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="赋予特定的可学习物理嵌入向量" vertex="1">
           <mxGeometry height="60" width="120" x="510" y="690" as="geometry" />
@@ -90,6 +96,63 @@
             <mxPoint x="574.6800000000001" y="647.22" as="sourcePoint" />
             <mxPoint x="575.32" y="690" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Ax_tBpf1RR-c3rcVU_9K-5" edge="1" parent="1" source="Ax_tBpf1RR-c3rcVU_9K-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ax_tBpf1RR-c3rcVU_9K-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax_tBpf1RR-c3rcVU_9K-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="最小镜像邻居搜索" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax_tBpf1RR-c3rcVU_9K-12" edge="1" parent="1" source="Ax_tBpf1RR-c3rcVU_9K-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ax_tBpf1RR-c3rcVU_9K-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax_tBpf1RR-c3rcVU_9K-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="显式构建周期连接边与自连接边" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax_tBpf1RR-c3rcVU_9K-13" edge="1" parent="1" source="Ax_tBpf1RR-c3rcVU_9K-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ax_tBpf1RR-c3rcVU_9K-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax_tBpf1RR-c3rcVU_9K-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="完成拓扑图构建" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax_tBpf1RR-c3rcVU_9K-15" edge="1" parent="1" source="Ax_tBpf1RR-c3rcVU_9K-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ax_tBpf1RR-c3rcVU_9K-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax_tBpf1RR-c3rcVU_9K-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="对图网络里的每一条边提取最短物理镜像距离" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax_tBpf1RR-c3rcVU_9K-17" edge="1" parent="1" source="Ax_tBpf1RR-c3rcVU_9K-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="Ax_tBpf1RR-c3rcVU_9K-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax_tBpf1RR-c3rcVU_9K-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="将标量距离映射展开为高维特征向量" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax_tBpf1RR-c3rcVU_9K-16" edge="1" parent="1" source="Ax_tBpf1RR-c3rcVU_9K-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ax_tBpf1RR-c3rcVU_9K-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax_tBpf1RR-c3rcVU_9K-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="遍历图结构，识别三元组，计算局域键角" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax_tBpf1RR-c3rcVU_9K-18" edge="1" parent="1" source="Ax_tBpf1RR-c3rcVU_9K-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="Ax_tBpf1RR-c3rcVU_9K-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax_tBpf1RR-c3rcVU_9K-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="将标量键角映射为高维特征向量" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax_tBpf1RR-c3rcVU_9K-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="完成高阶几何特征的非线性投影与编码" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax_tBpf1RR-c3rcVU_9K-14" edge="1" parent="1" source="Ax_tBpf1RR-c3rcVU_9K-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.57;entryY=-0.042;entryDx=0;entryDy=0;entryPerimeter=0;" target="Ax_tBpf1RR-c3rcVU_9K-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax_tBpf1RR-c3rcVU_9K-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="对具有真实物理化学属性的节点和物理缺失的节点分别构建初始节点隐藏状态" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax_tBpf1RR-c3rcVU_9K-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="获取边距离高维特征向量和角度高维特征向量，并进行锁存" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="1570" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax_tBpf1RR-c3rcVU_9K-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="1680" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
