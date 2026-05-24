@@ -1,9 +1,55 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="iaJBN7lexKzBjtzjPRGH">
-    <mxGraphModel>
+    <mxGraphModel dx="637" dy="422" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KR9CZQS5Xt03w_lFaHlf-1" edge="1" parent="1" source="KR9CZQS5Xt03w_lFaHlf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KR9CZQS5Xt03w_lFaHlf-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KR9CZQS5Xt03w_lFaHlf-3" edge="1" parent="1" source="KR9CZQS5Xt03w_lFaHlf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KR9CZQS5Xt03w_lFaHlf-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KR9CZQS5Xt03w_lFaHlf-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="对图网络里的每一条边提取最短物理镜像距离" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="KR9CZQS5Xt03w_lFaHlf-5" edge="1" parent="1" source="KR9CZQS5Xt03w_lFaHlf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="KR9CZQS5Xt03w_lFaHlf-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KR9CZQS5Xt03w_lFaHlf-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="将标量距离映射展开为高维特征向量" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="KR9CZQS5Xt03w_lFaHlf-7" edge="1" parent="1" source="KR9CZQS5Xt03w_lFaHlf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KR9CZQS5Xt03w_lFaHlf-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KR9CZQS5Xt03w_lFaHlf-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="遍历图结构，识别三元组，计算局域键角" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="KR9CZQS5Xt03w_lFaHlf-9" edge="1" parent="1" source="KR9CZQS5Xt03w_lFaHlf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="KR9CZQS5Xt03w_lFaHlf-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KR9CZQS5Xt03w_lFaHlf-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="将标量键角映射为高维特征向量" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="KR9CZQS5Xt03w_lFaHlf-11" edge="1" parent="1" source="KR9CZQS5Xt03w_lFaHlf-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KR9CZQS5Xt03w_lFaHlf-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KR9CZQS5Xt03w_lFaHlf-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="完成高阶几何特征的非线性投影与编码" vertex="1">
+          <mxGeometry height="60" width="120" x="430" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="KR9CZQS5Xt03w_lFaHlf-13" edge="1" parent="1" source="KR9CZQS5Xt03w_lFaHlf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.57;entryY=-0.042;entryDx=0;entryDy=0;entryPerimeter=0;" target="KR9CZQS5Xt03w_lFaHlf-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KR9CZQS5Xt03w_lFaHlf-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="得到带有边信息，键角信息以及每个节点信息的超胞图结构，进入步骤四" vertex="1">
+          <mxGeometry height="60" width="120" x="430" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="KR9CZQS5Xt03w_lFaHlf-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="输入拓扑图" vertex="1">
+          <mxGeometry height="60" width="120" x="430" y="350" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
