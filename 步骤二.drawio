@@ -1,9 +1,70 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="YJbpGGlFAqlRiAQ24LJW">
-    <mxGraphModel>
+    <mxGraphModel dx="570" dy="378" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RO6xYThztbusDk6Ac0Eu-1" edge="1" parent="1" source="RO6xYThztbusDk6Ac0Eu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RO6xYThztbusDk6Ac0Eu-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="显式构建周期连接边与自连接边" vertex="1">
+          <mxGeometry height="60" width="120" x="445" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="RO6xYThztbusDk6Ac0Eu-4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RO6xYThztbusDk6Ac0Eu-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RO6xYThztbusDk6Ac0Eu-6" edge="1" parent="1" source="RO6xYThztbusDk6Ac0Eu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RO6xYThztbusDk6Ac0Eu-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RO6xYThztbusDk6Ac0Eu-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="是否还有未处理完的节点" vertex="1">
+          <mxGeometry height="80" width="150" x="430" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="RO6xYThztbusDk6Ac0Eu-8" edge="1" parent="1" source="RO6xYThztbusDk6Ac0Eu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RO6xYThztbusDk6Ac0Eu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RO6xYThztbusDk6Ac0Eu-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="根据物理截断半径，同时跨越周期性边界，构建节点的邻居集合" vertex="1">
+          <mxGeometry height="60" width="120" x="445" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="RO6xYThztbusDk6Ac0Eu-10" parent="1" style="line;strokeWidth=1;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="90" x="355" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="RO6xYThztbusDk6Ac0Eu-11" parent="1" style="line;strokeWidth=1;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="220" width="10" x="350" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="RO6xYThztbusDk6Ac0Eu-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="RO6xYThztbusDk6Ac0Eu-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="355" y="450.28999999999996" as="sourcePoint" />
+            <mxPoint x="425" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RO6xYThztbusDk6Ac0Eu-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="485" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="RO6xYThztbusDk6Ac0Eu-14" parent="1" style="line;strokeWidth=1;direction=south;html=1;fontSize=11;fontStyle=0" value="" vertex="1">
+          <mxGeometry height="310" width="10" x="630" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="RO6xYThztbusDk6Ac0Eu-15" parent="1" style="line;strokeWidth=1;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="55" x="580" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="RO6xYThztbusDk6Ac0Eu-16" edge="1" parent="1" source="RO6xYThztbusDk6Ac0Eu-14" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="625" y="760" as="sourcePoint" />
+            <mxPoint x="565" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RO6xYThztbusDk6Ac0Eu-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="615" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="RO6xYThztbusDk6Ac0Eu-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="获取全部节点的三维坐标" vertex="1">
+          <mxGeometry height="60" width="120" x="445" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="RO6xYThztbusDk6Ac0Eu-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="完成拓扑图构建" vertex="1">
+          <mxGeometry height="60" width="120" x="445" y="740" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
