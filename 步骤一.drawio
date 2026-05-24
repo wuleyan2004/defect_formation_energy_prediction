@@ -1,9 +1,109 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="pRIsLmNWmyfkoDL_iEZK">
-    <mxGraphModel>
+    <mxGraphModel dx="747" dy="495" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NGi4pZx__TPb1PU76wyt-1" edge="1" parent="1" source="NGi4pZx__TPb1PU76wyt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NGi4pZx__TPb1PU76wyt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="开始" vertex="1">
+          <mxGeometry height="60" width="120" x="305" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-3" edge="1" parent="1" source="NGi4pZx__TPb1PU76wyt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NGi4pZx__TPb1PU76wyt-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="获取二维材料超胞结构数据" vertex="1">
+          <mxGeometry height="60" width="120" x="305" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-5" edge="1" parent="1" source="NGi4pZx__TPb1PU76wyt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NGi4pZx__TPb1PU76wyt-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="与理想二维材料基准晶格进行对比" vertex="1">
+          <mxGeometry height="60" width="120" x="305" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-7" edge="1" parent="1" source="NGi4pZx__TPb1PU76wyt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NGi4pZx__TPb1PU76wyt-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-8" edge="1" parent="1" source="NGi4pZx__TPb1PU76wyt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NGi4pZx__TPb1PU76wyt-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-9" edge="1" parent="1" source="NGi4pZx__TPb1PU76wyt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NGi4pZx__TPb1PU76wyt-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-10" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="判断缺陷位点类别" vertex="1">
+          <mxGeometry height="80" width="170" x="275" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-11" edge="1" parent="1" source="NGi4pZx__TPb1PU76wyt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NGi4pZx__TPb1PU76wyt-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="替位/掺杂缺陷" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-13" edge="1" parent="1" source="NGi4pZx__TPb1PU76wyt-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NGi4pZx__TPb1PU76wyt-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="间隙缺陷" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-15" edge="1" parent="1" source="NGi4pZx__TPb1PU76wyt-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NGi4pZx__TPb1PU76wyt-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="空位缺陷" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-17" edge="1" parent="1" source="NGi4pZx__TPb1PU76wyt-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="NGi4pZx__TPb1PU76wyt-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="记录实际元素类型及坐标" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-19" edge="1" parent="1" source="NGi4pZx__TPb1PU76wyt-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="NGi4pZx__TPb1PU76wyt-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="记录元素类型及坐标" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-21" edge="1" parent="1" source="NGi4pZx__TPb1PU76wyt-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NGi4pZx__TPb1PU76wyt-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="提取绝对三维坐标" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-23" edge="1" parent="1" source="NGi4pZx__TPb1PU76wyt-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NGi4pZx__TPb1PU76wyt-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="将对应的实体原子实例标记为“实体缺陷锚点”" vertex="1">
+          <mxGeometry height="60" width="120" x="195" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="在定位出的空位坐标处强制生成并注入一个“虚拟节点”，作为“虚拟缺陷锚点”" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-26" edge="1" parent="1" source="NGi4pZx__TPb1PU76wyt-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="根据原子的物理化学属性构建高维特征向量" vertex="1">
+          <mxGeometry height="60" width="120" x="195" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-28" edge="1" parent="1" source="NGi4pZx__TPb1PU76wyt-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="赋予特定的可学习物理嵌入向量" vertex="1">
+          <mxGeometry height="60" width="120" x="485" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-30" edge="1" parent="1" source="NGi4pZx__TPb1PU76wyt-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.547;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="549.6800000000001" y="737.22" as="sourcePoint" />
+            <mxPoint x="550.32" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NGi4pZx__TPb1PU76wyt-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="完成晶体数据解析与缺陷锚点动态注入" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="900" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
