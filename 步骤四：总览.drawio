@@ -1,9 +1,84 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="8FEkXzf8_dgj8OTg41uT">
-    <mxGraphModel>
+    <mxGraphModel dx="774" dy="513" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_0WkaqsL1PXHPIbGiiSG-1" edge="1" parent="1" source="_0WkaqsL1PXHPIbGiiSG-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_0WkaqsL1PXHPIbGiiSG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_0WkaqsL1PXHPIbGiiSG-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="遍历所有节点，对具有真实物理化学属性的节点和物理缺失的节点分别构建初始节点隐藏状态" vertex="1">
+          <mxGeometry height="60" width="140" x="310" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_0WkaqsL1PXHPIbGiiSG-3" edge="1" parent="1" source="_0WkaqsL1PXHPIbGiiSG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="331" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0WkaqsL1PXHPIbGiiSG-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="获取边距离高维特征向量和角度高维特征向量，并进行锁存，在后续充当非线性映射调节器" vertex="1">
+          <mxGeometry height="60" width="140" x="310" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="_0WkaqsL1PXHPIbGiiSG-5" edge="1" parent="1" source="_0WkaqsL1PXHPIbGiiSG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_0WkaqsL1PXHPIbGiiSG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_0WkaqsL1PXHPIbGiiSG-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="开始" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_0WkaqsL1PXHPIbGiiSG-19" edge="1" parent="1" source="_0WkaqsL1PXHPIbGiiSG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_0WkaqsL1PXHPIbGiiSG-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_0WkaqsL1PXHPIbGiiSG-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="局部交互模块" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="_0WkaqsL1PXHPIbGiiSG-20" edge="1" parent="1" source="_0WkaqsL1PXHPIbGiiSG-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_0WkaqsL1PXHPIbGiiSG-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_0WkaqsL1PXHPIbGiiSG-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="全局感知模块" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="_0WkaqsL1PXHPIbGiiSG-10" edge="1" parent="1" source="_0WkaqsL1PXHPIbGiiSG-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_0WkaqsL1PXHPIbGiiSG-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_0WkaqsL1PXHPIbGiiSG-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="L层局部交互模块与全局感知模块更新完成" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="_0WkaqsL1PXHPIbGiiSG-12" edge="1" parent="1" source="_0WkaqsL1PXHPIbGiiSG-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_0WkaqsL1PXHPIbGiiSG-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_0WkaqsL1PXHPIbGiiSG-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="对全部节点进行全局读出" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="_0WkaqsL1PXHPIbGiiSG-14" edge="1" parent="1" source="_0WkaqsL1PXHPIbGiiSG-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_0WkaqsL1PXHPIbGiiSG-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_0WkaqsL1PXHPIbGiiSG-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="生成代表当前二维材料的全局综合表征向量" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="_0WkaqsL1PXHPIbGiiSG-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="_0WkaqsL1PXHPIbGiiSG-21" edge="1" parent="1" source="_0WkaqsL1PXHPIbGiiSG-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_0WkaqsL1PXHPIbGiiSG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_0WkaqsL1PXHPIbGiiSG-18" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="是否L层局部交互模块和全局感知模块全部进行完" vertex="1">
+          <mxGeometry height="80" width="320" x="220" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="_0WkaqsL1PXHPIbGiiSG-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="_0WkaqsL1PXHPIbGiiSG-23" edge="1" parent="1" source="_0WkaqsL1PXHPIbGiiSG-18" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="_0WkaqsL1PXHPIbGiiSG-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="560" />
+              <mxPoint x="120" y="260" />
+            </Array>
+            <mxPoint x="150" y="370" as="sourcePoint" />
+            <mxPoint x="250" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0WkaqsL1PXHPIbGiiSG-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="380" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
