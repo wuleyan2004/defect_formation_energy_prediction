@@ -1,9 +1,72 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="tkLEPz1ignfXXj9AswAk">
-    <mxGraphModel>
+    <mxGraphModel dx="677" dy="449" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lndeCA5dSNnhGFRiCTMf-1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="lndeCA5dSNnhGFRiCTMf-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="260" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lndeCA5dSNnhGFRiCTMf-2" edge="1" parent="1" source="lndeCA5dSNnhGFRiCTMf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="lndeCA5dSNnhGFRiCTMf-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lndeCA5dSNnhGFRiCTMf-3" edge="1" parent="1" source="lndeCA5dSNnhGFRiCTMf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="lndeCA5dSNnhGFRiCTMf-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lndeCA5dSNnhGFRiCTMf-4" edge="1" parent="1" source="lndeCA5dSNnhGFRiCTMf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="lndeCA5dSNnhGFRiCTMf-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lndeCA5dSNnhGFRiCTMf-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="遍历每个节点，通过预设的可学习矩阵" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="lndeCA5dSNnhGFRiCTMf-6" edge="1" parent="1" source="lndeCA5dSNnhGFRiCTMf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="lndeCA5dSNnhGFRiCTMf-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lndeCA5dSNnhGFRiCTMf-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="查询向量" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="lndeCA5dSNnhGFRiCTMf-8" edge="1" parent="1" source="lndeCA5dSNnhGFRiCTMf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380.0967741935483" y="490.00000000000045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lndeCA5dSNnhGFRiCTMf-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="键向量" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="lndeCA5dSNnhGFRiCTMf-10" edge="1" parent="1" source="lndeCA5dSNnhGFRiCTMf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="490.00000000000045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lndeCA5dSNnhGFRiCTMf-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="值向量" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="lndeCA5dSNnhGFRiCTMf-12" edge="1" parent="1" source="lndeCA5dSNnhGFRiCTMf-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="lndeCA5dSNnhGFRiCTMf-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lndeCA5dSNnhGFRiCTMf-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="得到该节点与远端节点之间的全局自注意力权重" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="lndeCA5dSNnhGFRiCTMf-14" edge="1" parent="1" source="lndeCA5dSNnhGFRiCTMf-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="lndeCA5dSNnhGFRiCTMf-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lndeCA5dSNnhGFRiCTMf-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="将全图尺度上的值向量进行加权汇聚" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="lndeCA5dSNnhGFRiCTMf-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="遍历所有节点后，完成第l层节点特征的更新" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="lndeCA5dSNnhGFRiCTMf-17" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="输入：局部中间特征向量" vertex="1">
+          <mxGeometry height="60" width="170" x="300" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="lndeCA5dSNnhGFRiCTMf-18" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="输出：第l+1层的节点隐藏状态" vertex="1">
+          <mxGeometry height="60" width="185" x="290" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="lndeCA5dSNnhGFRiCTMf-19" edge="1" parent="1" source="lndeCA5dSNnhGFRiCTMf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.484;entryY=0.032;entryDx=0;entryDy=0;entryPerimeter=0;" target="lndeCA5dSNnhGFRiCTMf-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
