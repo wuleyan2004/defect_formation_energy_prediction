@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="iaJBN7lexKzBjtzjPRGH">
-    <mxGraphModel dx="637" dy="422" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="790" dy="1151" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,7 +44,7 @@
             <mxPoint x="520" y="420" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KR9CZQS5Xt03w_lFaHlf-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="得到带有边信息，键角信息以及每个节点信息的超胞图结构，进入步骤四" vertex="1">
+        <mxCell id="KR9CZQS5Xt03w_lFaHlf-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="得到带有边信息，键角信息以及每个节点信息的超胞图结构，进入步骤S4" vertex="1">
           <mxGeometry height="60" width="120" x="430" y="760" as="geometry" />
         </mxCell>
         <mxCell id="KR9CZQS5Xt03w_lFaHlf-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="输入拓扑图" vertex="1">
