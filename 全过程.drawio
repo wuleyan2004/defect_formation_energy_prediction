@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="-YONKYi-mMuMX4z_O0X7">
+    <mxGraphModel dx="754" dy="1053" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eSe6cUkVbtkjFpixcb4z-5" edge="1" parent="1" source="eSe6cUkVbtkjFpixcb4z-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="eSe6cUkVbtkjFpixcb4z-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eSe6cUkVbtkjFpixcb4z-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="获取超胞结构数据，进行缺陷确定与节点多维初始特征张量构建" vertex="1">
+          <mxGeometry height="60" width="350" x="230" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eSe6cUkVbtkjFpixcb4z-6" edge="1" parent="1" source="eSe6cUkVbtkjFpixcb4z-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="eSe6cUkVbtkjFpixcb4z-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eSe6cUkVbtkjFpixcb4z-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="基于周期性边界条件与截断半径，构建包含周期边界信息的拓扑图结构" vertex="1">
+          <mxGeometry height="60" width="382.5" x="213.75" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="eSe6cUkVbtkjFpixcb4z-7" edge="1" parent="1" source="eSe6cUkVbtkjFpixcb4z-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="eSe6cUkVbtkjFpixcb4z-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eSe6cUkVbtkjFpixcb4z-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="提取几何信息，将其非线性投影为边距离与角度高维特征张量" vertex="1">
+          <mxGeometry height="60" width="335" x="237.5" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="eSe6cUkVbtkjFpixcb4z-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="将初始特征与高阶几何特征输入深度网络，通过非线性演化生成全图综合表征向量" vertex="1">
+          <mxGeometry height="60" width="445" x="182.5" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="eSe6cUkVbtkjFpixcb4z-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="S1" vertex="1">
+          <mxGeometry height="30" width="60" x="590" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="eSe6cUkVbtkjFpixcb4z-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="S2" vertex="1">
+          <mxGeometry height="30" width="60" x="610" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="eSe6cUkVbtkjFpixcb4z-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="S3" vertex="1">
+          <mxGeometry height="30" width="60" x="580" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="eSe6cUkVbtkjFpixcb4z-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="S4" vertex="1">
+          <mxGeometry height="30" width="60" x="630" y="450" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
